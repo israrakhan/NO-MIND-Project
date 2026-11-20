@@ -1,0 +1,1 @@
+docker run -d --name no-mind-fe --restart unless-stopped -p 80:80 no_mind_fe
