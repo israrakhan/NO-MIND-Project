@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Admin Dashboard</title></head>
+<body>
+<h1>Visitor Statistics</h1>
+<ul>
+    <li>Total Visits: <span th:text="${totalVisits}"></span></li>
+<!--    <li>Unique Visitors: <span th:text="${uniqueVisitors}"></span></li>-->
+    <li>Today's Visits: <span th:text="${todayVisits}"></span></li>
+<!--    <li>Today's Unique Devices: <span th:text="${todayUnique}"></span></li>-->
+    <div class="stat-card"><h3>Registered Users</h3><div class="stat-number" th:text="${totalUsers}">0</div></div>
+</ul>
+</body>
+</html>
